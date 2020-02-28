@@ -1,0 +1,20 @@
+{
+  "name": "data_structures_and_algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
