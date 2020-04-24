@@ -31,7 +31,7 @@ class Queue<T> {
 
   printQueue(): string {
     var stringForPriniting: string = '';
-    this.queue.map(element => {
+    this.queue.map((element: T) => {
       stringForPriniting += element + ' ';
     });
     return stringForPriniting;

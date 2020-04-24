@@ -2,9 +2,9 @@ import Queue from './Queue';
 import Person from '../DataModel/Person';
 
 describe('QueueTester', () => {
-  let queueInstance: Queue<number>;
-  let personQueue: Queue<Person>;
-  let personInstance: Person;
+  var queueInstance: Queue<number>;
+  var personQueue: Queue<Person>;
+  var personInstance: Person;
 
   beforeAll(() => {
     personQueue = new Queue<Person>();
